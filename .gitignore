@@ -1,0 +1,7 @@
+# App files and folder
+node_modules
+
+# OS and IDE files and folders
+.idea
+.vscode
+nbproject
