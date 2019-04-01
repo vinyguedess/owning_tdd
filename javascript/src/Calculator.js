@@ -10,5 +10,9 @@ export default {
     }
 
     return total;
+  },
+
+  multiply(...numbers) {
+    return numbers.reduce((prev, curr) => prev * curr);
   }
 };

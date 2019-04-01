@@ -13,4 +13,10 @@ describe("CalculatorTest", () => {
       expect(Calculator.subtract(5, 1, 2)).to.be.equal(2);
     });
   });
+
+  describe("-> Multiply", () => {
+    it("-> Should multiply received numbers", () => {
+      expect(Calculator.multiply(3, 4, 2)).to.be.equal(24);
+    });
+  });
 });
